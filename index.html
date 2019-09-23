@@ -1,94 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html"
+              >Home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://doc2.netlify.com/packages.html"
+              >My documentation</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./reser.html">My research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./index.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" target="_blank" href="https://doc2.netlify.com/packages.html">My documentation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./reser.html">My research</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
+    <div class="container p-5 m-5">
+      <h1>My projects</h1>
+    </div>
 
-              <div class='container p-5 m-5'>
-                    <h1>My projects</h1>
-              </div>
+    <div class="container p-5 m-5">
+      <div class="row p-2 m-2">
+        <div class="col">
+          <div class="card border-0" style="width: 22rem;">
+            <img src="./screen1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Canvas Js Game</h5>
+              <p class="card-text">
+                A game that i made to practice more advanced javascript and user
+                interaction.
+              </p>
+              <a
+                href="https://devbattle.netlify.com"
+                target="_blank"
+                class="btn btn-primary"
+                >See more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0" style="width: 22rem;">
+            <img src="./screen2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">React.js Redux Async actions</h5>
+              <p class="card-text">
+                Exploring Redux Async actions using redux documentation.
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary">See more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0" style="width: 22rem;">
+            <iframe
+              width="420"
+              height="315"
+              src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            >
+            </iframe>
+            <div class="card-body">
+              <h5 class="card-title">React.js Redux Async actions</h5>
+              <p class="card-text">
+                Exploring Redux Async actions using redux documentation.
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary">See more</a>
+            </div>
+          </div>
+        </div>
 
-              <div class="container p-5 m-5">
-                    <div class="row p-2 m-2">
-                      <div class="col"><div class="card border-0" style="width: 22rem;">
-                            <img src="./screen1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Canvas Js Game</h5>
-                              <p class="card-text">A game that i made to practice more advanced javascript and user interaction.</p>
-                              <a href="https://devbattle.netlify.com" target="_blank" class="btn btn-primary">See more</a>
-                            </div>
-                          </div></div>
-                      <div class="col"><div class="card border-0" style="width: 22rem;">
-                            <img src="./screen2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">React.js Redux Async actions</h5>
-                              <p class="card-text">Exploring Redux Async actions using redux documentation.</p>
-                              <a href="#" target="_blank" class="btn btn-primary">See more</a>
-                            </div>
-                          </div></div>
-                      <div class="w-100 p-2 m-2"></div>
-                      <div class="col"><div class="card border-0" style="width: 22rem;">
-                            <img src="./screen4.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Hbs and node.js FullStack</h5>
-                              <p class="card-text">An example App e-commerce using Node.js, MongoDb, Mongoose, and hbs for views. Includes Authentication and 5 models with Crud operations.</p>
-                              <a href="https://giovani2.herokuapp.com/" target="_blank" class="btn btn-primary">See more</a>
-                            </div>
-                          </div></div>
-                      <div class="col"><div class="card border-0" style="width: 22rem;">
-                            <img src="./screen4.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">React.js, Redux and Node.js MERN</h5>
-                              <p class="card-text">A React.js App with a MongoDb database running in the background. A Advanced e-commerce store.</p>
-                              <a href="#" target="_blank" class="btn btn-primary">See more</a>
-                            </div>
-                          </div></div>
-                          <div class="w-100 p-2 m-2"></div>
-                      <div class="col"><div class="card border-0" style="width: 22rem;">
-                            <img src="./screen5.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">My documentation</h5>
-                              <p class="card-text">Where i save code as a resource for direction and copy paste</p>
-                              <a href="https://giovani2.herokuapp.com/" target="_blank" class="btn btn-primary">See more</a>
-                            </div>
-                          </div></div>
-                      <div class="col"><div class="card border-0" style="width: 22rem;">
-                            <img src="./screen4.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">React.js, Redux and Node.js MERN</h5>
-                              <p class="card-text">A React.js App with a MongoDb database running in the background. A Advanced e-commerce store.</p>
-                              <a href="#" target="_blank" class="btn btn-primary">See more</a>
-                            </div>
-                          </div></div>
-                    </div>
-                  </div>
-    
-</body>
+        <div class="w-100 p-2 m-2"></div>
+        <div class="col">
+          <div class="card border-0" style="width: 22rem;">
+            <img src="./screen4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Hbs and node.js FullStack</h5>
+              <p class="card-text">
+                An example App e-commerce using Node.js, MongoDb, Mongoose, and
+                hbs for views. Includes Authentication and 5 models with Crud
+                operations.
+              </p>
+              <a
+                href="https://giovani2.herokuapp.com/"
+                target="_blank"
+                class="btn btn-primary"
+                >See more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0" style="width: 22rem;">
+            <img src="./screen4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">React.js, Redux and Node.js MERN</h5>
+              <p class="card-text">
+                A React.js App with a MongoDb database running in the
+                background. A Advanced e-commerce store.
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary">See more</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-100 p-2 m-2"></div>
+        <div class="col">
+          <div class="card border-0" style="width: 22rem;">
+            <img src="./screen5.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">My documentation</h5>
+              <p class="card-text">
+                Where i save code as a resource for direction and copy paste
+              </p>
+              <a
+                href="https://giovani2.herokuapp.com/"
+                target="_blank"
+                class="btn btn-primary"
+                >See more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0" style="width: 22rem;">
+            <img src="./screen4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">React.js, Redux and Node.js MERN</h5>
+              <p class="card-text">
+                A React.js App with a MongoDb database running in the
+                background. A Advanced e-commerce store.
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary">See more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
